@@ -8,6 +8,7 @@ libraryDependencies ++= Seq(
   "org.apache.spark"  %%  "spark-core"    % "2.3.0"   % "provided",
   "org.apache.spark"  %%  "spark-sql"     % "2.3.0",
   "org.apache.spark"  %%  "spark-mllib"   % "2.3.0",
-  "org.xerial" % "sqlite-jdbc" % "3.31.1"
+  "org.xerial" % "sqlite-jdbc" % "3.31.1",
+  "net.liftweb" % "lift-json_2.11" % "3.4.1"
 
 )
